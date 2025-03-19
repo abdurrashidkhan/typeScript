@@ -7,3 +7,11 @@ const country = () => {
     console.log(match);
 };
 country();
+// arrar
+const countries = ["Bangladesh", "istan", "Palestine"];
+const students = {
+    name: "John",
+    age: 20,
+    country: "Bangladesh",
+};
+console.log(countries);
