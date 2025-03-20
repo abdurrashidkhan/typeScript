@@ -10,6 +10,7 @@ country();
 
 // arrar
 const countries: string[] = ["Bangladesh", "istan", "Palestine"];
+console.log(countries);
 
 // interface of object
 interface Student {
@@ -19,8 +20,23 @@ interface Student {
 }
 
 const students: Student = {
-  name: "John",
+  name: "Rashid khan",
   age: 20,
   country: "Bangladesh",
 };
-console.log(countries);
+console.log(students);
+
+//type  function
+const sum = (a: number, b: number) => {
+  return a + b;
+};
+console.log(sum(4, 5));
+
+// type aliases
+type userType = { name: string; email: string; number: string };
+
+const userInfo = (user: userType) => {
+  console.log(user);
+};
+userInfo({ name: "rashid", email: "rashidkhan@gmail.com", number: "016177" });
+//

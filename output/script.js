@@ -9,9 +9,20 @@ const country = () => {
 country();
 // arrar
 const countries = ["Bangladesh", "istan", "Palestine"];
+console.log(countries);
 const students = {
-    name: "John",
+    name: "Rashid khan",
     age: 20,
     country: "Bangladesh",
 };
-console.log(countries);
+console.log(students);
+//type  function
+const sum = (a, b) => {
+    return a + b;
+};
+console.log(sum(4, 5));
+const userInfo = (user) => {
+    console.log(user);
+};
+userInfo({ name: "rashid", email: "rashidkhan@gmail.com", number: "016177" });
+//
